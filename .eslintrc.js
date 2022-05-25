@@ -6,7 +6,7 @@ module.exports = {
     'react-app/jest'
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'eslint-plugin-prettier'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
