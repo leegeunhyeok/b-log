@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import { GitHubModule } from './modules/github';
+import { AnimatedSymbol } from 'src/components';
 
 const App = () => {
   return (
     <Container>
-      <button onClick={() => {
-        GitHubModule.login();
-      }}>test</button>
+      <AnimatedSymbol />
     </Container>
   );
 };
