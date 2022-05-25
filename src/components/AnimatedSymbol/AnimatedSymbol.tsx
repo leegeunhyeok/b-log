@@ -24,7 +24,7 @@ const SymbolWrapper = styled('div')`
   width: ${SIZE}px;
   height: ${SIZE}px;
   font-size: ${SIZE}px;
-  line-height: ${SIZE}px;
+  line-height: ${SIZE * 0.8}px;
   animation: ${symbolAnimation} 0.75s ease-out forwards;
 `;
 
